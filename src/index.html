@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="flex justify-center my-20 bg-[#F1F1F1]">
+    <main class="bg-white rounded-lg p-10 shadow-md">
+        <div class="max-w-2xl">
+
+            <div class="flex justify-center flex-col items-center mb-10 gap-2">
+                <img src="../kinley-logo.png" alt="" class="w-36">
+                <h1 class="text-2xl font-semibold">Nyeremény beváltása a Kinley promócióhoz.</h1>
+                <p>Az alábbi űrlap kitöltését követően kaphatod meg a megnyert Huawei Watch GT4 okosórát.</p>
+                <div class="flex flex-col">
+                    <p><b>Promóciós időszak:</b> 2024.08.12.-08.31.</p>
+                    <p><b>Regisztrációs időszak:</b> 2024.08.12.-08.31.</p>
+                </div>
+            </div>
+
+            <form>
+                <div class="space-y-8">
+
+                    <div class="col-span-full">
+                        <label for="coupon-code"
+                            class="block text-sm font-medium leading-6 text-gray-900">Kuponkód</label>
+                        <div class="mt-2">
+                            <input type="text" name="coupon-code" id="coupon-code" autocomplete="coupon-code"
+                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-x-8">
+                        <div class="flex flex-col justify-center items-center border border-gray-200 rounded pt-1">
+                            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio"
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300">
+
+                            <label for="bordered-radio-1"
+                                class="py-4 text-sm font-medium text-gray-900 flex flex-col items-center gap-4">
+                                <div>
+                                    <img src="../black.png" alt="" class="w-28">
+                                </div>
+                                <div>Huawei Watch GT4 Fekete</div>
+                            </label>
+                        </div>
+                        <div class="flex flex-col items-center border border-gray-200 rounded pt-1">
+                            <input id="bordered-radio-2" type="radio" value="" name="bordered-radio"
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                            <label for="bordered-radio-2"
+                                class="py-4 text-sm font-medium text-gray-900 flex flex-col items-center gap-4">
+                                <div>
+                                    <img src="../white.png" alt="" class="w-28">
+                                </div>
+                                <div>Huawei Watch GT4 Fehér</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="text-base font-semibold leading-7 text-gray-900">Szállítási adatok</h2>
+                        <hr>
+
+                        <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                            <div class="sm:col-span-3">
+                                <label for="last-name"
+                                    class="block text-sm font-medium leading-6 text-gray-900">Vezetéknév</label>
+                                <div class="mt-2">
+                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+
+                            <div class="sm:col-span-3">
+                                <label for="first-name"
+                                    class="block text-sm font-medium leading-6 text-gray-900">Keresztnév</label>
+                                <div class="mt-2">
+                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+
+                            <div class="sm:col-span-3">
+                                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email
+                                    cím</label>
+                                <div class="mt-2">
+                                    <input id="email" name="email" type="email" autocomplete="email"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+                            <div class="sm:col-span-3 grid grid-cols-3 gap-2">
+                                <div class="col-span-1">
+                                    <label for="prefix"
+                                        class="block text-sm font-medium leading-6 text-gray-900">Előhívó</label>
+                                    <div class="mt-2">
+                                        <select id="prefix" name="prefix"
+                                            class="block w-full rounded-md border-0 py-[0.47rem] text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                                            <option>+36 30</option>
+                                            <option>+36 20</option>
+                                            <option>+36 70</option>
+                                            <option>+36 31</option>
+                                            <option>+36 50</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-span-2">
+                                    <label for="phone"
+                                        class="block text-sm font-medium leading-6 text-gray-900">Telefonszám</label>
+                                    <div class="mt-2">
+                                        <input id="phone" name="phone" type="tel" autocomplete="tel"
+                                            class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sm:col-span-1">
+                                <label for="postal-code"
+                                    class="block text-sm font-medium leading-6 text-gray-900">Irányítószám</label>
+                                <div class="mt-2">
+                                    <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+
+                            <div class="sm:col-span-2">
+                                <label for="city"
+                                    class="block text-sm font-medium leading-6 text-gray-900">Város</label>
+                                <div class="mt-2">
+                                    <input type="text" name="city" id="city" autocomplete="address-level2"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+
+                            <div class="sm:col-span-3">
+                                <label for="region" class="block text-sm font-medium leading-6 text-gray-900">Utca,
+                                    házszám</label>
+                                <div class="mt-2">
+                                    <input type="text" name="region" id="region" autocomplete="address-level1"
+                                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pb-2">
+
+                        <div>
+                            <div>
+                                <div class="relative flex gap-x-3">
+                                    <div class="flex h-6 items-center">
+                                        <input id="sms" name="sms" type="checkbox"
+                                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                                    </div>
+                                    <div class="text-sm leading-6">
+                                        <label for="sms" class=" text-gray-900">SMS értesítést kérek</label>
+                                    </div>
+                                </div>
+                                <div class="relative flex gap-x-3">
+                                    <div class="flex h-6 items-center">
+                                        <input id="agreements" name="agreements" type="checkbox"
+                                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                                    </div>
+                                    <div class="text-sm leading-6">
+                                        <label for="agreements" class=" text-gray-900">A regisztrációval
+                                            elfogadja az <a href="#" class="text-indigo-600 underline">adatvédelmi
+                                                tájékoztatóban</a>
+                                            és a <a href="#" class="text-indigo-600 underline">promóciós
+                                                leírásban</a> foglaltakat.</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 flex items-center justify-start gap-x-6">
+                    <button type="submit"
+                        class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Beküldöm</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
